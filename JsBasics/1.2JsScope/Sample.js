@@ -28,3 +28,18 @@ var c= 10;
 // let: Block Scoped    | Hoisted | can be updated / cannot be redeclared in the same scope
 // const: Block Scoped  | Hoisted | cannot be updated / cannot be redeclared  (DECLARATION AND INITIALIZATION SHOULD HAPPEN AT THE SAME TIME)
 
+console.log(window.innerHeight);
+console.log(window.outerHeight);
+
+let x=100;
+var y=199;
+
+console.log(window.x);
+console.log(window.y);
+
+function count(){
+    document.getElementById("total_cost").innerHTML="<span>299</span>"
+}
+
+
+
