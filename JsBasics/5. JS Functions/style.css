@@ -1,0 +1,11 @@
+#seats_selected{
+    display: flex;
+    flex-direction: row;
+}
+
+.green{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    margin: 10px;
+}
