@@ -26,5 +26,5 @@ var c= 10;
 
 // var: Function Scoped | Hoisted | can be updated / redclared
 // let: Block Scoped    | Hoisted | can be updated / cannot be redeclared in the same scope
-// const: Block Scoped  | Hoisted | cannot be updated / cannot be redeclared 
+// const: Block Scoped  | Hoisted | cannot be updated / cannot be redeclared  (DECLARATION AND INITIALIZATION SHOULD HAPPEN AT THE SAME TIME)
 
