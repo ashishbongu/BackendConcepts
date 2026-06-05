@@ -34,6 +34,12 @@ function outer(){
 }
 outer()();
 
+setTimeout(function c(){
+    //syntax for settimeout, 
+    //remember!! time tide and js waits for none :)
+},1000)
+
+
 
 
 
