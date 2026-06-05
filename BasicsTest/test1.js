@@ -24,3 +24,16 @@ for(var i=1;i<=5;i++){
 }
 
 
+function outer(){
+    let a =10;
+    function inner(){
+        let b=20;
+        console.log(b);
+    }
+    return inner;
+}
+outer()();
+
+
+
+
